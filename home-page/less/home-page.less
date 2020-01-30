@@ -1,0 +1,27 @@
+.main-content, .secondary-content{
+
+
+    article{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .spacing();
+        width: 40%;
+        height: 45vh;
+        background: @box-color;
+        border: 1px solid black;
+        border-radius: 25px;
+
+        h2{
+            .spacing();
+        }
+        p{
+            .spacing();
+            font-size: 1.1rem;
+            line-height: 1.5rem;
+        }
+        a{
+            .button();
+        }
+    }
+}

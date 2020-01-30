@@ -1,18 +1,27 @@
 .button {
   height: 75px;
-  width: 100px;
+  width: 120px;
   color: white;
-  background-color: violet;
+  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   border-radius: 20px;
+  box-shadow: 2px 2px black;
+}
+.button:hover {
+  color: blue;
+  background: white;
 }
 .flex-center {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.spacing {
+  padding: 2%;
+  margin: 2%;
 }
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
@@ -150,11 +159,23 @@ table {
   border: solid;
   background-color: lightgray;
 }
+.homePage .main-content,
+.homePage .secondary-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  font-size: 2rem;
+  color: green;
+}
 .nav-bar {
   display: flex;
   justify-content: space-evenly;
+  border-bottom: 2px dashed gray;
   height: 13vh;
   width: 100%;
+  background: tan;
 }
 .nav-bar h1 {
   width: 60%;
@@ -162,10 +183,10 @@ table {
   justify-content: center;
   align-items: center;
   font-size: 3.2rem;
+  color: green;
 }
 .nav-bar nav {
-  border: solid;
-  width: 25%;
+  width: 30%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -177,14 +198,74 @@ table {
   text-decoration: none;
   font-size: 1.1rem;
 }
+.nav-bar nav a:hover {
+  color: green;
+}
 .nav-bar nav .CTA {
   height: 75px;
-  width: 100px;
+  width: 120px;
   color: white;
-  background-color: violet;
+  background-color: blue;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   border-radius: 20px;
+  box-shadow: 2px 2px black;
+}
+.nav-bar nav .CTA:hover {
+  color: blue;
+  background: white;
+}
+footer {
+  background: tan;
+  height: 8vh;
+  width: 75%;
+  border: 2px solid gray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-content article,
+.secondary-content article {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 2%;
+  margin: 2%;
+  width: 40%;
+  height: 45vh;
+  background: violet;
+  border: 1px solid black;
+  border-radius: 25px;
+}
+.main-content article h2,
+.secondary-content article h2 {
+  padding: 2%;
+  margin: 2%;
+}
+.main-content article p,
+.secondary-content article p {
+  padding: 2%;
+  margin: 2%;
+  font-size: 1.1rem;
+  line-height: 1.5rem;
+}
+.main-content article a,
+.secondary-content article a {
+  height: 75px;
+  width: 120px;
+  color: white;
+  background-color: blue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px black;
+}
+.main-content article a:hover,
+.secondary-content article a:hover {
+  color: blue;
+  background: white;
 }
