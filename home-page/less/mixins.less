@@ -1,0 +1,25 @@
+.button{
+    height: 75px;
+    width: 120px;
+    color: white;
+    background-color: @button-color;
+    .flex-center();
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:2px 2px black;
+
+    &:hover{
+        color:@button-color;
+        background: white;
+    }
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.spacing{
+    padding: 2%;
+    margin: 2%;
+}
