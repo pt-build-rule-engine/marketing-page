@@ -5,3 +5,19 @@
     border: solid;
     background-color: @main-color;
 }
+
+button{
+    height: 2.5em;
+    width: 140px;
+    margin:1em;
+    color: @header-color;
+    background-color: @main-color;
+    .flex-center();
+    border: 1px solid black;
+    border-radius: 20px;
+    box-shadow:2px 2px black;
+    &:hover{
+        color:@main-color;
+        background: @box-color;
+    }
+}
