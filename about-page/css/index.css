@@ -1,3 +1,19 @@
+.button {
+  height: 75px;
+  width: 120px;
+  color: #0A0A00;
+  background-color: #A8BBB0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid black;
+  border-radius: 20px;
+  box-shadow: 2px 2px black;
+}
+.button:hover {
+  color: #EBE8E0;
+  background-color: #0A0A00;
+}
 .flex-center {
   display: flex;
   justify-content: center;
@@ -182,7 +198,7 @@ button:hover {
   align-self: center;
 }
 .navigation-bar nav {
-  width: 25%;
+  width: 35%;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -197,14 +213,19 @@ button:hover {
 }
 .navigation-bar nav .CTA {
   height: 75px;
-  width: 100px;
-  color: #fff;
-  background-color: #EBE8E0;
+  width: 120px;
+  color: #0A0A00;
+  background-color: #A8BBB0;
   display: flex;
   justify-content: center;
   align-items: center;
   border: 1px solid black;
   border-radius: 20px;
+  box-shadow: 2px 2px black;
+}
+.navigation-bar nav .CTA:hover {
+  color: #EBE8E0;
+  background-color: #0A0A00;
 }
 .engine-logo-wrap .rule-engine-logo {
   height: 100%;
@@ -219,7 +240,7 @@ footer {
 }
 footer p {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 4s0px;
 }
 .homePage {
   margin: 0 15%;
@@ -237,6 +258,7 @@ header {
   background-image: url("/marketing-page/about-page/about-banner.jpeg");
   background-size: cover;
   font-family: 'Poller One', cursive;
+  background-color: #A8BBB0;
 }
 header .about-banner {
   width: 100%;
