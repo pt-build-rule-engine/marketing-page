@@ -296,10 +296,11 @@ header article {
   display: flex;
   align-items: center;
   flex-direction: column;
+  justify-content: space-around;
   padding: 2%;
   margin: 2%;
   width: 100%;
-  height: 35vh;
+  height: 60vh;
   background: #a8bbb0;
   border: 1px solid black;
   border-radius: 25px;
@@ -329,4 +330,24 @@ header article a:hover {
 }
 header article a:hover {
   background: #D01110;
+}
+header article .devs {
+  height: 50%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+header article .devs ul li {
+  margin: 2%;
+  height: 10%;
+  width: 100%;
+}
+header article .devs ul li a {
+  border: none;
+  height: 1.35rem;
+  width: inherit;
+  box-shadow: none;
+  font-size: 1.1rem;
 }
