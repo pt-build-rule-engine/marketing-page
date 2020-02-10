@@ -235,6 +235,7 @@ h2 {
 .nav-bar nav a {
   color: black;
   font-size: 1.1rem;
+  margin: 1%;
 }
 @media (max-width: 800px) {
   .nav-bar nav a {
@@ -338,6 +339,16 @@ header article .devs {
   justify-content: center;
   align-items: center;
   justify-content: space-around;
+}
+@media (max-width: 800px) {
+  header article .devs {
+    width: 75%;
+  }
+}
+@media (max-width: 500px) {
+  header article .devs {
+    width: 100%;
+  }
 }
 header article .devs ul li {
   margin: 2%;
